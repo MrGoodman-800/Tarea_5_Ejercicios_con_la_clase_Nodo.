@@ -10,7 +10,7 @@ public class Main {
         head.getSiguiente().getSiguiente().getSiguiente().setSiguiente(new Nodo<>("Mc"));
         head.getSiguiente().getSiguiente().getSiguiente().getSiguiente().setSiguiente(new Nodo<>("Zi"));
         //1 Imprime el estado inicial completo de la lista
-        System.out.println("Estado unicial");
+        System.out.println("Estado inicial");
         System.out.println(head);
         //2 Imprime únicamente el dato almacenado en el primer nodo de la lista.
         System.out.println("primer nodo");
